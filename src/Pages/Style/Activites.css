@@ -1,0 +1,23 @@
+body{
+    background-color: #F3F4F6;
+}
+
+.Activites{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Activites button{
+    width: 60%;
+    margin: 5px 0 5px 0;
+}
+
+.Link{
+    width: 100%;
+}
+
+.Back{
+    width: 200px;
+}

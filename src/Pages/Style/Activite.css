@@ -1,0 +1,27 @@
+body{
+    background-color: #F3F4F6;
+}
+
+.Activite{
+    text-align: center;
+}
+
+.Score{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Score input {
+    margin: 0px 5px 0px 5px;
+    width: 25%;
+}
+
+.Score button{
+    width: 25%;
+}
+
+.SendScore {
+    margin: 20px;
+    width: 40%;
+}

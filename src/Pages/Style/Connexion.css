@@ -1,0 +1,10 @@
+body{
+    background-color: #F3F4F6;
+}
+
+.Connexion{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
