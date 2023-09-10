@@ -17,6 +17,7 @@ import Activites from './Pages/Activites';
 import Activitie from './Pages/Activitie';
 import CourseOrientation from './Pages/CourseOrientation';
 import SuccesScanning from './Pages/SuccesScanning';
+import Createur from './Pages/Createur';
 
 
 const router = createBrowserRouter([
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: "successcanning/:uid",
     element: <SuccesScanning/>,
+  },
+  {
+    path: "createur",
+    element: <Createur/>,
   }
 ]);
 

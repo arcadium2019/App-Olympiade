@@ -4,6 +4,7 @@ import { useState } from 'react';
 import TextRetour from '../Component/TextRetour';
 import axios from 'axios';
 import { accountService } from '../_services/acount.service';
+import { Link } from 'react-router-dom';
 
 
 
@@ -47,6 +48,17 @@ function Connexion() {
           <button class=" m-2 py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-48 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg">Valider</button>
         </form>
         <TextRetour chemin={"/"}/>
+        <footer class="w-full py-8 absolute inset-x-0 bottom-0 items-center	">
+            <div class="w-full px-4 mx-auto items-center	">
+                <ul class="flex flex-wrap justify-between w-full mx-auto text-lg font-light items-center">
+                    <li class="my-2 items-center w-full">
+                      <Link to={"/createur"}>
+                        <p class=" hover:text-gray-800 dark:text-gray-400 dark:hover:text-white transition-colors duration-200">Créateur</p>
+                      </Link>
+                    </li>
+                </ul>
+            </div>
+        </footer>
       </div>
     </div>
   )

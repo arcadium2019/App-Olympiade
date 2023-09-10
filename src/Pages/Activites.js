@@ -69,6 +69,18 @@ function Activites() {
       <Link className='Link'><button onClick={handleClick} value="Balle au prisonnier" class="py-2  transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">Balle au prisonnier</button></Link>
       <Link className='Link'><button onClick={handleClick} Value="Question pour un champion" class="py-2  transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">Questions pour un champion</button></Link>
 
+      <footer class="w-full py-8 absolute inset-x-0 bottom-0 items-center	">
+            <div class="w-full px-4 mx-auto items-center	">
+                <ul class="flex flex-wrap justify-between w-full mx-auto text-lg font-light items-center">
+                    <li class="my-2 items-center w-full">
+                      <Link to={"/createur"}>
+                        <p class=" hover:text-gray-800 dark:text-gray-400 dark:hover:text-white transition-colors duration-200">Créateur</p>
+                      </Link>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
     </div>
   )
 }

@@ -5,6 +5,7 @@ import { accountService } from '../_services/acount.service'
 import './Style/SuccesScanning.css'
 import { useParams } from 'react-router-dom'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 function SuccesScanning() {
 
@@ -86,6 +87,17 @@ function SuccesScanning() {
             <h1>Bien jouer vous avez trouver ce QrCode</h1>
             <h2>Vous gagner 10 points</h2>
             <ButtonBleu texte={"Course D'Orientation"} chemin={"/courseorientation"} />
+            <footer class="w-full py-8 absolute inset-x-0 bottom-0 items-center	">
+            <div class="w-full px-4 mx-auto items-center	">
+                <ul class="flex flex-wrap justify-between w-full mx-auto text-lg font-light items-center">
+                    <li class="my-2 items-center w-full">
+                      <Link to={"/createur"}>
+                        <p class=" hover:text-gray-800 dark:text-gray-400 dark:hover:text-white transition-colors duration-200">Créateur</p>
+                      </Link>
+                    </li>
+                </ul>
+            </div>
+        </footer>
         </div>
     )
 }
